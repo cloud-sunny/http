@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="argclib_http_net_error_hint" translatable="false">网络信号差，请稍后再试</string>
+    <string name="argclib_http_server_error_hint" translatable="false">服务器异常</string>
+    <string name="argclib_http_parse_error_hint" translatable="false">解析异常</string>
+    <string name="argclib_http_null_hint" translatable="false">暂无数据</string>
+    <string name="argclib_http_other_hint" translatable="false">请求数据异常</string>
+</resources>

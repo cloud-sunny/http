@@ -1,0 +1,2 @@
+include ':app',':apt',':annotations',':client',':netcheck'
+rootProject.name='http'

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<resources>-->
+    <paths xmlns:android="http://schemas.android.com/apk/res/android">
+       <!-- <external-path name="PictureSelector-path" path="PictureSelector/CameraImage" />-->
+        <external-path name="external-path" path="argc" />
+        <external-path name="external-path" path="amap" />
+        <external-path name="camera_photos" path="/" />
+        <external-path
+            name="pdf-path"
+            path="/"/>
+        <files-path
+            name="pdf-path"
+            path="/"/>
+
+    <external-cache-path name="external-cache-path" path="/" />
+        <!--<cache-path name="apk" path="apk" />&lt;!&ndash;Context.getCacheDir()目录或者其子目录。&ndash;&gt;-->
+
+    <!--<root-path/> 代表设备的根目录new File("/");-->
+    <!--<files-path/> 代表context.getFilesDir()-->
+    <!--<cache-path/> 代表context.getCacheDir()-->
+    <!--<external-path/> 代表Environment.getExternalStorageDirectory()-->
+    <!--<external-files-path>代表context.getExternalFilesDirs()-->
+    <!--<external-cache-path>代表getExternalCacheDirs()-->
+    </paths>
+<!--</resources>-->

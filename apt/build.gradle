@@ -1,0 +1,33 @@
+plugins{
+    id 'java'
+    id 'maven-publish'
+}
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+dependencies {
+    var ext = rootProject.ext
+    if (debug.toBoolean()) {
+        implementation project(':annotations')
+    } else {
+        implementation "com.github.cloud-sunny.http:annotation:$ext.sdkVersion"
+    }
+    implementation "com.google.auto.service:auto-service:$ext.auto_service"
+    annotationProcessor "com.google.auto.service:auto-service:$ext.auto_service"
+    implementation 'com.squareup:javapoet:1.11.1'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+
+task javaSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from sourceSets.main.java
+}
+artifacts {
+    archives javaSourcesJar
+}
+
