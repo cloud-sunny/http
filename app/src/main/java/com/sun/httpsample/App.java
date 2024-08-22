@@ -88,7 +88,6 @@ public class App extends Application {
                                 .addInterceptor(new Test1Interceptor().asOkHttpInterceptor())
                                 .addInterceptor(new Test4Interceptor().asOkHttpInterceptor())
                                 .addNetworkInterceptor(ArgcStethoInterceptor.getInstance())
-                                .addInterceptor(new SignatureParamsInterceptor().asOkHttpInterceptor())
                                 .addInterceptor(new SetCommonParamsInterceptor("1").asOkHttpInterceptor())
                                 .sslSocketFactory(sslParams.sSLSocketFactory, sslParams.trustManager)
                                 .hostnameVerifier((hostname, session) -> true);
