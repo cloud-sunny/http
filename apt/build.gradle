@@ -1,4 +1,4 @@
-plugins{
+plugins {
     id 'java'
     id 'maven-publish'
 }
@@ -29,5 +29,17 @@ task javaSourcesJar(type: Jar) {
 }
 artifacts {
     archives javaSourcesJar
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories { RepositoryHandler handler ->
+        handler.mavenLocal()
+    }
 }
 
