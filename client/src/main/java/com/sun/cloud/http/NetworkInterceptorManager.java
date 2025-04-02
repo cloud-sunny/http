@@ -9,7 +9,7 @@ import com.sun.cloud.http.interceptor.InterceptorManager;
  * <p>
  * Created on 2019/7/3
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 final class NetworkInterceptorManager extends InterceptorManager {
 

@@ -20,7 +20,7 @@ import retrofit2.Retrofit;
 /**
  * Created on 2018/8/22 20:32
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public class FastJsonConverterFactory extends Factory {
     private static final MediaType MEDIA_TYPE = MediaType.parse("application/json; charset=UTF-8");

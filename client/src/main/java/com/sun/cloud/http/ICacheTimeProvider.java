@@ -2,7 +2,7 @@ package com.sun.cloud.http;
 
 /**
  * 缓存时间提供对象
- * @author WingHawk
+ * @author xiaoyun
  */
 @FunctionalInterface
 public interface ICacheTimeProvider {

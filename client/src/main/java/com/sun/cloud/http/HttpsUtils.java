@@ -23,7 +23,7 @@ import javax.net.ssl.X509TrustManager;
 /**
  * Created on 2020/5/21
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public class HttpsUtils {
 

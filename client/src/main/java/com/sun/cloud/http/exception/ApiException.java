@@ -3,7 +3,7 @@ package com.sun.cloud.http.exception;
 /**
  * Created on 2020/1/8
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public class ApiException extends Exception {
 

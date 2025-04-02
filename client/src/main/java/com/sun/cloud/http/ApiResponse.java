@@ -11,7 +11,7 @@ import javax.annotation.Nullable;
 /**
  * Created on 2018/8/22 18:55
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 @SuppressWarnings("unused")
 public class ApiResponse<T> implements IResponse<T> {

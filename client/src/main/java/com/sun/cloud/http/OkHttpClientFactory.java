@@ -6,7 +6,7 @@ import retrofit2.Retrofit;
 /**
  * Created on 2021/3/19
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public interface OkHttpClientFactory {
 

@@ -24,7 +24,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /**
  * Created on 2021/3/19
  *
- * @author WingHawk
+ * @author xiaoyun
  * 默认只会创建2个 指定key 一个是主配置[default] 一个是瓦片图sdk使用[title]
  */
 public class DefaultOkHttpClientFactory implements OkHttpClientFactoryExt {

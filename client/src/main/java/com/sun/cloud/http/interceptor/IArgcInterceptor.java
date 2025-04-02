@@ -9,7 +9,7 @@ import okhttp3.Response;
 /**
  * Created on 2019/7/4
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public interface IArgcInterceptor extends Comparable<IArgcInterceptor> {
 

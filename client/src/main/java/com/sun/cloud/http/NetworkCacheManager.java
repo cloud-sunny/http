@@ -33,7 +33,7 @@ import okio.Buffer;
  * <p>
  * Created on 2020/5/22
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 class NetworkCacheManager {
 

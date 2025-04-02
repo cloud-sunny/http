@@ -5,7 +5,7 @@ import java.io.InterruptedIOException;
 /**
  * Created on 2019/10/30
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public class RequestInterruptedException extends InterruptedIOException {
 }

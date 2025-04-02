@@ -9,7 +9,7 @@ import androidx.lifecycle.MutableLiveData;
 import com.sun.cloud.http.AbsentLiveData;
 
 /**
- * @author WingHawk
+ * @author xiaoyun
  */
 public abstract class BaseRemoteResource<Result> extends NetworkResource<Result, Result> {
 

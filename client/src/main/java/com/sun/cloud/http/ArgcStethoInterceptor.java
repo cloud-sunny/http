@@ -11,7 +11,7 @@ import retrofit2.internal.EverythingIsNonNull;
 /**
  * Created on 2020/9/27
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 public class ArgcStethoInterceptor implements Interceptor {
     private boolean enabled;

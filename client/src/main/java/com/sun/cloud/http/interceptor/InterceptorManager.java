@@ -25,7 +25,7 @@ import okhttp3.Response;
  * <p>
  * Created on 2019/7/3
  *
- * @author WingHawk
+ * @author xiaoyun
  */
 
 public class InterceptorManager implements Interceptor {

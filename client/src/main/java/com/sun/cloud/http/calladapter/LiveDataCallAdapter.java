@@ -45,7 +45,7 @@ import retrofit2.Response;
  * A Retrofit adapter that converts the Call into a LiveData of ApiResponse.
  *
  * @param <R>
- * @author WingHawk
+ * @author xiaoyun
  */
 public class LiveDataCallAdapter<T, R extends IResponse<T>> implements CallAdapter<R, LiveData<IResponse<T>>> {
     private final Type responseType;
